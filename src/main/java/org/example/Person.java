@@ -1,5 +1,6 @@
 package org.example;
 
+// class representing a person
 public class Person {
     private String name;
     private int age;
