@@ -5,6 +5,11 @@ public class Person {
     private int age;
     private Person friend;
 
+    /**
+     * Creates a new person
+     * @param name full name of the person.
+     * @param age initial age of the person
+     */
     public Person(String name, int age) {
         this.name = name;
         if (age >= 0) {
